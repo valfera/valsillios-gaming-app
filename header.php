@@ -8,17 +8,15 @@
     <body <?php body_class(); ?> >
         <header class="site-header">
       <div class="container">
-        <h1 class="school-logo-text float-left">
-          <a href="<?php echo site_url()?>"><strong>Valsillios</strong> Gaming</a>
+        <h1 class="logo-text float-left">
+          <a href="<?php echo site_url('/home')?>">Valsillios Gaming</a>
         </h1>
         <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
         <div class="site-header__menu group">
           <nav class="main-navigation">
             <ul>
-              <li><a href="<?php echo site_url('/home')?>">Home</a></li>
               <li><a href="<?php echo site_url('/games')?>">Upcoming</a></li>
-              <li><a href="<?php echo site_url('/currently-playing')?>">Currently Playing</a></li>
               <li><a href="<?php echo site_url('/ratings')?>">Ratings</a></li>
               <li><a href="<?php echo site_url('/reviews')?>">Reviews</a></li>
               <li><a href="<?php echo site_url('/favorites')?>">Favorites</a></li>
